@@ -17,9 +17,8 @@ logo = '''
 |_______/  \_______/ \_______/ \______/  \_______/ \_______/|__/ \______/ |_______/  \_______/
 
    \033[0m  \033[91m   \033[1m     }--{+} Coded By Manisso the original pytube creator. 		    
-   \033[0m  \033[91m  \033[1m      }--{+} Updatet by UnknowSociety.		         	     
    \033[0m  \033[91m    \033[1m    }--{+} Lets download some stuff. 		         	     
-   \033[0m  \033[91m   \033[1m     }--{+} supported platforms: youtube,vimeo,vivo and many more.
+   \033[0m  \033[91m   \033[1m     }--{+} supported platforms: dailymotion,vimeo,vivo and many more.
 '''
 menu = '''\033[0m
     {1}--Video Download
@@ -59,7 +58,7 @@ $$  \ /$$/ $$ |/$$$$$$$ |/$$$$$$  |/$$$$$$  |
    $$$/    $$ |$$    $$ |$$       |$$    $$/
     $/     $$/  $$$$$$$/  $$$$$$$/  $$$$$$/
 
-PUT URL HERE: https://www.youtube.com/watch?v=PYJHFVBsmeQ
+PUT URL HERE:
 """
             ydl_opts = {}
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -78,7 +77,7 @@ PUT URL HERE: https://www.youtube.com/watch?v=PYJHFVBsmeQ
 | $$  | $$|  $$$$$$/|  $$$$$$$| $$|  $$$$$$/
 |__/  |__/ \______/  \_______/|__/ \______/
 
-PUT URL HERE: https://www.youtube.com/watch?v=PYJHFVBsmeQ
+PUT URL HERE:
 """
             ydl_opts = {
                 'format': 'bestaudio/best',
@@ -106,7 +105,7 @@ PUT URL HERE: https://www.youtube.com/watch?v=PYJHFVBsmeQ
                         |  $$$$$$/
                          \______/
 
-PUT URL HERE: https://www.youtube.com/watch?v=lp-EO5I60KA&list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj
+PUT URL HERE:
 """)
             d3 = raw_input('playlist URL: ')
             os.system("clear")
